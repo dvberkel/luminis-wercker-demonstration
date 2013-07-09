@@ -1,0 +1,18 @@
+{
+  "name": "luminis-wercker-demonstration",
+  "version": "0.0.0",
+  "description": "Demonstrating the power of the continous delivery service Wercker",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dvberkel/luminis-wercker-demonstration.git"
+  },
+  "keywords": [
+    "wercker"
+  ],
+  "author": "Daan van Berkel",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
