@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Demonstrating the power of the continous delivery service Wercker",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/vows spec/*_spec.js"
   },
   "repository": {
     "type": "git",
@@ -14,5 +14,8 @@
   ],
   "author": "Daan van Berkel",
   "license": "MIT",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "vows": "~0.7.0"
+  }
 }
