@@ -6,7 +6,7 @@ var greeter = new Greeter('Hello');
 
 var server = http.createServer(function(request, response){
     var parts = url.parse(request.url, true);
-    response.end(greeter.greet('World'));
+    response.end(greeter.greet(parts.query['user']));
 });
 
 var port = process.env.PORT || 3435;
